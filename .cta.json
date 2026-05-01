@@ -1,0 +1,31 @@
+{
+  "projectName": "taxcalculator",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "npm",
+  "includeExamples": false,
+  "tailwind": true,
+  "addOnOptions": {
+    "prisma": {
+      "database": "postgres"
+    }
+  },
+  "envVarValues": {
+    "VITE_CONVEX_URL": "https://gallant-dove-922.convex.cloud/",
+    "VITE_CLERK_PUBLISHABLE_KEY": "pk_test_c2VsZWN0ZWQtZ3JvdXBlci02LmNsZXJrLmFjY291bnRzLmRldiQ"
+  },
+  "git": true,
+  "install": true,
+  "routerOnly": false,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": [
+    "cloudflare",
+    "shadcn",
+    "ai",
+    "prisma",
+    "convex",
+    "clerk",
+    "store"
+  ]
+}

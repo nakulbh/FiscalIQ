@@ -100,6 +100,18 @@ function HeroSection() {
             See how it works
           </a>
         </div>
+        <img
+          src="/monet-water-lilies.jpg"
+          alt="Water Lilies by Claude Monet"
+          className="mt-14 w-full max-w-2xl rounded-xl object-cover"
+          style={{ height: '220px', boxShadow: '0 22px 44px rgba(30, 90, 72, 0.12), 0 6px 18px rgba(23, 58, 64, 0.08)' }}
+        />
+        <p
+          className="mt-3 text-sm italic"
+          style={{ color: 'var(--sea-ink-soft)' }}
+        >
+          Water Lilies by Claude Monet
+        </p>
       </div>
     </section>
   )
